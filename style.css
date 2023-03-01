@@ -1,0 +1,30 @@
+.gridRows{
+    height: 60px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.cell{
+    border: 2px solid white;
+
+    flex: 1;
+    background-color: white;
+}
+
+.trail {
+    background-color: green;
+}
+
+#container {
+    align-content: center;
+}
+
+
+
+h1 {
+    color: green;
+    font-family: Arial, cursive;
+    text-align: center;
+
+}
