@@ -1,3 +1,7 @@
+* {
+    background-color: orange;
+}
+
 .gridRows{
     height: 60px;
     display: flex;
@@ -6,10 +10,9 @@
 }
 
 .cell{
-    border: 2px solid white;
-
+    border: none;
     flex: 1;
-    background-color: white;
+    background-color: orange;
 }
 
 .trail {
@@ -17,7 +20,15 @@
 }
 
 #container {
+
     align-content: center;
+    padding: 10px green;
+    border: 5px green solid;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 
 

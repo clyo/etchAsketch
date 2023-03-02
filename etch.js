@@ -28,7 +28,6 @@ makeColumns(16);
 
 let cell = document.getElementsByClassName("cell");
 console.log(cell);
-
 grid.addEventListener('mouseover', trail);
     
 
